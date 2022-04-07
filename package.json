@@ -14,5 +14,17 @@
     "eval"
   ],
   "author": "mnwm",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ittking/safevel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ittking/safevel/issues"
+  },
+  "homepage": "https://github.com/ittking/safevel#readme",
+  "dependencies": {
+    "esprima": "^4.0.1",
+    "hoister": "^0.0.2"
+  }
 }
