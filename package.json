@@ -1,6 +1,6 @@
 {
   "name": "safevel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "for eval",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "tape test/*.js"
+    "test": "tape test/*.js",
+    "start": "node run.js"
   },
   "keywords": [
     "eval"
