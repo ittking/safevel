@@ -1,32 +1,33 @@
 {
   "name": "safevil",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "for eval",
   "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
   "scripts": {
-    "test": "tape test/*.js",
-    "start": "node run.js"
+    "test": "tape test/*.js"
   },
   "keywords": [
-    "eval"
+    "eval",
+    "sandbox",
+    "esprima",
+    "safe",
+    "expression"
   ],
   "author": "mnwm",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ittking/safevel.git"
+    "url": "https://github.com/ittking/safevel.git"
   },
   "bugs": {
     "url": "https://github.com/ittking/safevel/issues"
   },
   "homepage": "https://github.com/ittking/safevel#readme",
   "dependencies": {
-    "esprima": "^4.0.1",
-    "hoister": "^0.0.2",
-    "tape": "^5.5.2"
+    "esprima": "~1.0",
+    "hoister": "~0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.11.0"
   }
 }
