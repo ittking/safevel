@@ -1,5 +1,5 @@
 {
-  "name": "safevel",
+  "name": "safevil",
   "version": "1.0.1",
   "description": "for eval",
   "main": "index.js",
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/ittking/safevel#readme",
   "dependencies": {
     "esprima": "^4.0.1",
-    "hoister": "^0.0.2"
+    "hoister": "^0.0.2",
+    "tape": "^5.5.2"
   }
 }
